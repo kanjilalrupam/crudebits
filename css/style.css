@@ -1,0 +1,85 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+
+
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+nav{
+  position: relative;
+  background-color: #345a5a;
+}
+.brand-logo{
+  display: inline-block;
+}
+nav ul a,
+nav .brand-logo {
+  color: #fff;  
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.sidenav-list-item
+{
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parallax-container {
+  min-height: 680px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
